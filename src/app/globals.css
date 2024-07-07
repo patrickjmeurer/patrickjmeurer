@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color-rgb: 251, 251, 251;
+  --color-rgb: 24, 24, 24;
+  
+  --black-rgb: 13, 13, 13;
+  --white-rgb: 255, 255, 255;
+  --onyx-rgb: 24, 24, 24;
+  --onyx-rgba-30: 24, 24, 24, 30%;
+  --dark-grey-rgb: 128, 128, 128;
+  --medium-grey-rgba: 128, 128, 128, 50%;
+  --light-grey-rgb: 197, 197, 197;
+  --faint-white-rgb: 243, 243, 243;
+
+  --card-bg-color-rgb: 246, 246, 246;
+  --card-border-color-rgb: 235, 235, 235;
+  --card-border: 1px solid rgb(var(--card-border-color-rgb));
+  --card-color: var(--onyx-rgb);
+  
+  /* Navbar */
+  --navbar-bg-color-rgba: 255, 255, 255, 25%;
+  --navbar-text-color-rgb: var(--onyx-rgb);
+
+
+  /* Selected Work */
+  --selected-work-bg-color-rgb: var(--card-bg-color-rgb);
+  --selected-work-h3-color-rgb: var(--onyx-rgb);
+
+
+  /* Buttons */
+  --button-box-shadow: none;
+  --button-bg-color-1: 26, 26, 26;
+  --button-bg-color-2: 16, 16, 16;
+  --secondary-button-bg-color-rgb: var(--faint-white-rgb);
+  --secondary-button-text-color-rgb: var(--onyx-rgb);
+
+  /* Lets Work Together section */
+  --lets-work-h2-color: rgb(var(--onyx-rgb));
+  --lets-work-p-color: rgb(var(--dark-grey-rgb));
+
+  /* Footer */
+  --footer-text-color: rgb(var(--onyx-rgb));
+  --footer-h4-color: rgb(var(--onyx-rgb));
+  --footer-link-color: rgb(var(--onyx-rgb));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color-rgb: 13, 13, 13;
+    --color-rgb: 255, 255, 255;
+
+    /* Navbar */
+    --navbar-bg-color-rgba: 24, 24, 24, 30%;
+    --navbar-text-color-rgb: var(--light-grey-rgb);
+
+    --card-bg-color-rgb: 21, 21, 21;
+
+    --card-border: none;
+    --card-color: rgba(var(--light-grey-rgb));
+
+    /* Button */
+    --button-box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.15), inset 0px 1px 2px rgba(255, 255, 255, 0.02), inset 0px 2px 4px rgba(255, 255, 255, 0.08);
+    --secondary-button-bg-color-rgb: var(--onyx-rgb);
+    --secondary-button-text-color-rgb: var(--dark-grey-rgb);
+
+    /* Selected Work */
+    --selected-work-bg-color-rgb: var(--onyx-rgb);
+    --selected-work-h3-color-rgb: var(--white-rgb);
+
+    /* Lets Work Together section */
+    --lets-work-h2-color: rgb(var(--white-rgb));
+    --lets-work-p-color: rgba(var(--medium-grey-rgba));
+    
+    /* Footer */
+    --footer-text-color: rgba(var(--medium-grey-rgba));
+    --footer-h4-color: rgb(var(--white-rgb));
+    --footer-link-color: rgb(var(--light-grey-rgb));
+  }
+}
+
+body {
+  color: rgb(var(--color-rgb));
+  background-color: rgb(var(--background-color-rgb));
+  background-image: url('/top-bg.svg'), url('/bottom-bg.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+.card {
+  background-color: rgb(var(--card-bg-color-rgb));
+  border: var(--card-border);
+
+  h3 {
+    color: var(--card-color);
+  }
+}
+
+button {
+  &.primary {
+    color: rgb(var(--white-rgb));
+    background: linear-gradient(180deg, rgb(var(--button-bg-color-1)) 0%, rgb(var(--button-bg-color-2)) 100%);
+    box-shadow: var(--button-box-shadow);
+  }
+  &.secondary {
+    background: rgb(var(--secondary-button-bg-color-rgb));
+    color: rgb(var(--secondary-button-text-color-rgb));
+  }
+}
+
+.navbar {
+  border: 1px solid rgba(255,2525,255, 20%);
+}
+
+.selectedWork {
+  background: rgb(var(--selected-work-bg-color-rgb));
+  border: var(--card-border);
+
+  h3 {
+    color: rgb(var(--selected-work-h3-color-rgb));
+  }
+}
+
+.lets-work {
+  h2 {
+    color: var(--lets-work-h2-color);
+  }
+
+  p {
+    color: var(--lets-work-p-color);
+  }
+}
+
+footer {
+  color: var(--footer-text-color);
+
+  h4 {
+    color: var(--footer-h4-color)
+  }
+
+  a {
+    color: var(--footer-link-color)
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
