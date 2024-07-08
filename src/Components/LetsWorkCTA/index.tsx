@@ -1,6 +1,6 @@
 import { PaperPlaneRight } from '@phosphor-icons/react/dist/ssr'
-import Button from '../Button'
 import { useTranslations } from 'next-intl'
+import Button from '../Button'
 
 const LetsWorkCta: React.FC = () => {
   const t = useTranslations('LetsWork')
@@ -12,8 +12,8 @@ const LetsWorkCta: React.FC = () => {
       </div>
       <div className="mt-10 flex flex-1 justify-center md:mt-0 md:justify-end">
         <Button
-          href=""
           variant="primary"
+          href="/contact"
           iconStart={<PaperPlaneRight size={20} />}
         >
           {t('buttonCta')}

@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { ThemeProvider } from 'next-themes'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,7 +26,11 @@ export default async function RootLayout({
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <main className="container flex flex-col items-center justify-between pt-12">
-            <ThemeProvider attribute="class">{children}</ThemeProvider>
+            <ThemeProvider attribute="class">
+              {children}
+              <SpeedInsights />
+              <Analytics />
+            </ThemeProvider>
           </main>
         </NextIntlClientProvider>
       </body>
