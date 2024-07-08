@@ -31,9 +31,9 @@ const SelectedWorkCard: React.FC<SelectedWorkCardProps> = ({
         </div>
         <div className="mb-10 mt-5">
           <Button
-            type="link"
+            variant="link"
             iconEnd={<ArrowRight size={20} />}
-            link={buttonLink}
+            href={buttonLink || ''}
           >
             {buttonText}
           </Button>

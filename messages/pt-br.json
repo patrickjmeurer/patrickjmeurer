@@ -1,0 +1,71 @@
+{
+  "Global": {
+    "fullName": "Patrick Jean Meurer",
+    "name": "Patrick",
+    "resume": "currículo"
+  },
+  "Navbar": {
+    "about": "Sobre",
+    "work": "Trabalhos",
+    "contact": "Contato",
+    "techStack": "Tech Stack"
+  },
+  "Home": {
+    "title": "Hello world!"
+  },
+  "HeroBanner": {
+    "hi": "Olá 👋🏻",
+    "im": "Sou ",
+    "description": "Um Engenheiro de Software Full Stack ajudando empresas a transformar suas visões em realidade digital. Sou especializado em construir aplicativos modernos para web e dispositivos móveis.",
+    "see-resume": "Veja meu currículo",
+    "get-in-touch": "Entre em contato"
+  },
+  "SelectedWork": {
+    "title": "Trabalhos selecionados"
+  },
+  "GetToKnowMe": {
+    "title": "Me conheça melhor",
+    "aboutMe": "Sobre mim",
+    "aboutMeSub": "Quem eu sou e o que faço",
+    
+    "techStack": "Stack Tech",
+    "techStackSub": "As ferramentas de desenvolvimento, aplicativos, dispositivos e jogos que tenho jogado.",
+
+    "experiences": "Experiências",
+    "experiencesSub": "Todas as minhas experiências de trabalho e demais informações."
+  },
+  "LetsWork": {
+    "title": "Vamos trabalhar juntos",
+    "subTitle": "Quer discutir uma oportunidade de criar algo incrível? Estou pronto quando você estiver.",
+    "buttonCta": "Entre em contato"
+  },
+  "NotFound": {
+    "subtitle": "Eu não encontrei essa página!",
+    "button": "Voltar para o início"
+  },
+  "LangSwitch": {
+    "portuguese": "Português (Brasil)",
+    "english": "English"
+  },
+  "Footer": {
+    "Thanks": "Obrigado por aparecer por aqui ッ",
+    "Copy": "© 2024 <name></name>. Todos os direitos reservados.",
+    "Elsewhere": "Outros lugares"
+  },
+
+  "AboutPage": {
+    "title": "Um pouco mais sobre mim",
+    "subTitle": "Quem eu sou e o que faço.",
+
+    "whoIAm": "Quem sou eu",
+    "whoIAmText": "Olá 👋🏻, eu sou <name></name>, um engenheiro de software full stack de 27 anos, morando em Pouso Redondo, Santa Catarina, Brasil. 🇧🇷",
+    
+    "whatIDo": "O que eu faço",
+    "whatIDoText": "Sou um Engenheiro de Software Sênior com sólida experiência em desenvolvimento de software. Tenho ampla expertise na stack JavaScript (React, NodeJS e suas frameworks) e utilizei várias outras linguagens, incluindo Python, Java, C# e SQL. Trabalho em projetos complexos, sempre buscando soluções inovadoras e eficientes.",
+
+    "whatIDid": "O que já fiz",
+    "whatIDidText": "Ao longo da minha carreira, contribuí para diversas empresas de tecnologia renomadas, desenvolvendo desde sistemas web robustos até aplicativos móveis inovadores. Entre os projetos notáveis em que trabalhei estão a criação de uma plataforma de e-commerce escalável para uma grande varejista, o desenvolvimento de uma aplicação de gerenciamento de dados para uma empresa do setor financeiro e a implementação de uma solução de automação de processos para uma empresa de logística. <break></break> Sou apaixonado por ficção científica, espaço e aviação. Nos meus momentos de lazer, gosto de jogar Airsoft e assistir filmes e séries. Estou sempre em busca de novas ideias e tecnologias para facilitar a vida das pessoas. Meu objetivo é criar meu próprio negócio revolucionário no futuro, trazendo inovação e eficiência ao mercado.",
+
+    "bottomText": "Fique à vontade para entrar em contato via <mail></mail>. Quer ver onde trabalhei? Confira meu <resume></resume> ou conecte-se comigo no <linkedin></linkedin>."
+  }
+}

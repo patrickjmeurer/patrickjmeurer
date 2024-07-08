@@ -1,0 +1,72 @@
+{
+  "Global": {
+    "fullName": "Patrick Jean Meurer",
+    "name": "Patrick",
+    "resume": "resume"
+  },
+  "Navbar": {
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact",
+    "techStack": "Tech Stack"
+  },
+  "Home": {
+    "title": "Hello world!"
+  },
+  "HeroBanner": {
+    "hi": "Hi 👋🏻",
+    "im": "I'm ",
+    "description": "A Full Stack Software Engineer helping companies turn their visions into a digital reality. I specialize in building modern mobile and web-based apps.",
+    "see-resume": "See my resume",
+    "get-in-touch": "Get in touch"
+  },
+  "SelectedWork": {
+    "title": "Selected work"
+  },
+  "GetToKnowMe": {
+    "title": "Get to know me",
+
+    "aboutMe": "About me",
+    "aboutMeSub": "Who I am and what I do.",
+    
+    "techStack": "Tech Stack",
+    "techStackSub": "The dev tools, apps, devices, and games I use and play.",
+
+    "experiences": "Experiences",
+    "experiencesSub": "All my working experiences and informations."
+  },
+  "LetsWork": {
+    "title": "Let’s work together",
+    "subTitle": "Want to discuss an opportunity to create something great? I’m ready when you are.",
+    "buttonCta": "Get in touch"
+  },
+  "NotFound": {
+    "subtitle": "I didn't found this page!",
+    "button": "Go home"
+  },
+  "LangSwitch": {
+    "portuguese": "Português (Brazil)",
+    "english": "English"
+  },
+  "Footer": {
+    "Thanks": "Thanks for stopping by ッ",
+    "Copy": "© 2024 <name></name>. All Rights Reserved.",
+    "Elsewhere": "Elsewhere"
+  },
+  
+  "AboutPage": {
+    "title": "A little bit about me",
+    "subTitle": "Who I am and what I do.",
+
+    "whoIAm": "Who i am",
+    "whoIAmText": "Hello 👋🏻, I’m <name></name>, a 27-year-old full stack software engineer based in Pouso Redondo, Santa Catarina, Brazil. 🇧🇷",
+    
+    "whatIDo": "What i do",
+    "whatIDoText": "I am a Senior Software Engineer with solid experience in software development. I have extensive expertise in the JavaScript stack (React, NodeJS, and its frameworks) and have used several other languages, including Python, Java, C#, and SQL. I work on complex projects, always seeking innovative and efficient solutions. <break></break> ",
+
+    "whatIDid": "What i did",
+    "whatIDidText": "Throughout my career, I have contributed to various renowned technology companies, developing robust web systems and innovative mobile applications. Among the notable projects I have worked on are the creation of a scalable e-commerce platform for a major retailer, the development of a data management application for a financial sector company, and the implementation of a process automation solution for a logistics company. <break></break> I am passionate about science fiction, space, and aviation. In my leisure time, I enjoy playing Airsoft and watching movies and series. I am always looking for new ideas and technologies to make people’s lives easier. My goal is to create my own revolutionary business in the future, bringing innovation and efficiency to the market.",
+
+    "bottomText": "Feel free to reach out via <mail></mail>. Want to see where I’ve worked? Check out my <resume></resume>, or connect with me on <linkedin></linkedin>."
+  }
+}
