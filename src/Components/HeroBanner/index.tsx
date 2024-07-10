@@ -45,6 +45,7 @@ const HeroBanner: React.FC = () => {
           width={350}
           height={350}
           priority
+          quality={100}
         />
       </div>
     </div>

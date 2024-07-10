@@ -6,8 +6,9 @@
   },
   "Navbar": {
     "about": "About",
-    "work": "Work",
+    "projects": "Projects",
     "contact": "Contact",
+    "experiences": "Work experiences",
     "techStack": "Tech Stack"
   },
   "Home": {
@@ -57,6 +58,9 @@
     "title": "YOUR PROJECT GOES HERE",
     "subTitle": "Let’s turn your idea into a visual reality."
   },
+  "ExperienceCard": {
+    "showMore": "Show more"
+  },
   
   "AboutPage": {
     "title": "A little bit about me",
@@ -73,7 +77,7 @@
 
     "bottomText": "Feel free to reach out via <mail></mail>. Want to see where I’ve worked? Check out my <resume></resume>, or connect with me on <linkedin></linkedin>."
   },
-  "WorkPage": {
+  "ProjectsPage": {
     "title": "Projects",
     "subTitle": "Projects and ideas I’ve worked on."
   },
@@ -97,5 +101,9 @@
   "TechStackPage": {
     "title": "Tech Stack",
     "subTitle": "The dev tools, apps, devices, and games I use and play."
+  },
+  "ExperiencesPage": {
+    "title": "Experiences",
+    "subTitle": "All my professional experiences, very detailed."
   }
 }

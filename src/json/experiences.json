@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "Senior Full Stack Software Engineer",
+    "titlePt": "Engenheiro de Software Full Stack Sênior",
+    "subTitle": "TV Globo",
+    "subTitlePt": "TV Globo",
+    "logo": "/icons/globo.png",
+    "description": "As a member of the Globo team, I participated in an internal project that manages payroll, fees, image rights, and other financial transactions for the company’s artistic talents. Using technologies such as React (along with MobX and ViteJS) and Node.js (with the NestJS framework), I contributed to the development of a robust and efficient system. My proficiency in React.js, JavaScript, Node.js, Vite, NestJS, and Next.js enables me to create intuitive user interfaces and scalable backend solutions. Working on this project at Globo, I play a key role in optimizing financial management processes and increasing overall efficiency.",
+    "descriptionPt": "Como membro da equipe da Globo, participei de um projeto interno que gerencia folha de pagamento, cachê, direitos de imagem e outras transações financeiras para talentos artísticos da empresa. Utilizando tecnologias como o React (junto com MobX e ViteJS) e Node.js (usando o framework NestJS), contribuí para o desenvolvimento de um sistema robusto e eficiente. Minha proficiência em React.js, JavaScript, Node.js, Vite, NestJS e Next.js me permite criar interfaces intuitivas para o usuário e soluções escaláveis no backend. Trabalhando nesse projeto na Globo, desempenho um papel fundamental na otimização dos processos de gestão financeira e no aumento da eficiência geral.",
+    "initDate": "2023/03/01",
+    "endDate": "2024/05/01"
+  },
+  {
+    "id": "2",
+    "title": "Project Manager | Senior Full Stack Software Engineer",
+    "titlePt": "Gerente de projetos | Engenheiro de Software Full Stack Sênior",
+    "subTitle": "Sky Brazil",
+    "subTitlePt": "Sky Brasil",
+    "logo": "/icons/sky.png",
+    "description": "As part of the SKY Brasil team, I contributed to a website project that activates users’ TV receivers and obtains signals for the new KU band. Using technologies such as React.js and Node.js, I played a key role in developing an intuitive and seamless user interface. My experience in TypeScript, JavaScript, Nest.js, and Next.js enabled me to design and implement efficient solutions that facilitate the activation process.",
+    "descriptionPt": "Como parte da equipe da SKY Brasil, contribuí para um projeto de um site que ativa os receptores de TV do usuário e obtém sinais para a nova banda KU. Utilizando tecnologias como React.js e Node.js, desempenhei um papel fundamental no desenvolvimento de uma interface intuitiva e contínua para o usuário. Minha experiência em TypeScript, JavaScript, Nest.js e Next.js me permitiu projetar e implementar soluções eficientes que facilitam o processo de ativação.",
+    "initDate": "2022/05/01",
+    "endDate": "2023/03/01"
+  },
+  {
+    "id": "3",
+    "title": "Senior Full Stack Software Engineer",
+    "titlePt": "Engenheiro de Software Full Stack Sênior",
+    "subTitle": "Olist",
+    "subTitlePt": "Olist",
+    "logo": "/icons/olist.jpeg",
+    "description": "As part of the Olist team, I contributed to a sales dashboard project, along with product registration, where these products were displayed on various marketplaces such as Mercado Livre, Americanas, etc. I helped build several features within this project, creating intuitive and seamless user interfaces using React, Nest, and Python.",
+    "descriptionPt": "Como parte da equipe da Olist, contribuí num projeto de dashboard de vendas, juntamente com cadastro de produtos, onde esses produtos eram expostos em diversos Marketplaces como Mercado Livre, Americanas, etc. Ajudei a construir várias features dentro desse projeto, criando interfaces intuitivas e contínua para o usuário, utilizando as ferramentas do React, Nest e Python.",
+    "initDate": "2021/05/01",
+    "endDate": "2022/05/01"
+  },
+  {
+    "id": "4",
+    "title": "Senior Full Stack Software Engineer",
+    "titlePt": "Engenheiro de Software Full Stack Sênior",
+    "subTitle": "Lyncas",
+    "subTitlePt": "Lyncas",
+    "logo": "/icons/Lyncas.jpeg",
+    "description": "As a PHP/Laravel Developer, I, along with the team, built an e-commerce platform, creating a robust and scalable online shopping platform. With a deep understanding of its functionalities, I ensure the seamless integration of features such as product listings, cart management, and secure payment gateways.",
+    "descriptionPt": "Como Desenvolvedor PHP/Laravel, construi, juntamente com a equipe, um e-commerce, criando uma plataforma de compras online robusta e escalável. Com um entendimento profundo das funcionalidades, garanto a integração perfeita de recursos como listagem de produtos, gerenciamento de carrinho e gateways de pagamento seguros.",
+    "initDate": "2021/01/01",
+    "endDate": "2022/04/01"
+  },
+  {
+    "id": "5",
+    "title": "Senior Full Cycle Software Engineer",
+    "titlePt": "Engenheiro de Software Full Cycle Sênior",
+    "subTitle": "Info Digitalle",
+    "subTitlePt": "Info Digitalle",
+    "logo": "/icons/infodigitalle.png",
+    "description": "As a member of the Info Digitalle development team, I maintained and migrated a project aimed to city ​​halls and council chamber, featuring document management functions such as laws, bill proposals, decrees, etc. My experience also allowed me to manage one of the teams and integrate AWS tools like S3, CodeBuild, CodeDeploy, and ECS, enabling efficient project deployment. Using React, Node, Laravel, and Lumen, I ensured the complete execution of the project, from conception to implementation.",
+    "descriptionPt": "Como membro da equipe de desenvolvimento da Info Digitalle, dei manutenção e migração de um projeto voltado à prefeituras e câmaras de vereadores, contando com funções de gestão de documentos como leis, projetos de leis, decretos e etc. Minha experiência também permitiu gerenciar uma das equipes e também me permitiu realizar integraçõe com as ferramentas da AWS, como S3, CodeBuild, CodeDeploy, ECS, me permitindo implantar o projeto de uma maneira eficiente. Utilizando React, Node, Laravel e Lumen, garanti a execução completa do projeto, desde sua concepção até implementação.",
+    "initDate": "2019/09/01",
+    "endDate": "2020/12/01"
+  },
+  {
+    "id": "6",
+    "title": "Full Stack Software Engineer",
+    "titlePt": "Engenheiro de Software Full Cycle",
+    "subTitle": "Escalasoft",
+    "subTitlePt": "Escalasoft",
+    "logo": "/icons/escalasoft.jpeg",
+    "description": "As a Full Stack Developer at Escalasoft, I had the opportunity to participate in the creation of a robust software focused on ERP, TMS, WMS, FMS, and CMS in the logistics area. This opportunity allowed me to enhance my skills in Delphi, C#, and Android development, as well as gain proficiency in databases such as MySQL, PostgreSQL, and Microsoft SQL Server. My comprehensive understanding of development enabled me to contribute effectively to all stages of the product lifecycle, ensuring high-quality and efficient results.",
+    "descriptionPt": "Como Desenvolvedor Full Stack na Escalasoft, tive oportunidade de participar da criação de um software robusto, voltado à ERP, TMS, WMS, FMS e CMS, na área de logística. Com essa oportunidade aprimorei minhas habilidades em desenvolvimento Delphi, C# e Android, além de adquirir proficiência em banco de dados como MySQL, PostgreSQL e Microsoft SQL Server. Meu entendimento abrangente de desenvolvimento me permitiu contribuir efetivamente para todas as etapas do ciclo de vida do produto, garantindo resultados de alta qualidade e eficiência.",
+    "initDate": "2018/12/01",
+    "endDate": "2019/09/01"
+  },
+  {
+    "id": "7",
+    "title": "Graphic Designer",
+    "titlePt": "Designer Gráfico",
+    "subTitle": "ICAVI",
+    "subTitlePt": "ICAVI",
+    "logo": "/icons/icavi.jpeg",
+    "description": "As a Graphic Designer, I oversee the company’s social media presence and website, ensuring engaging and cohesive visual content. I develop advertising materials and produce multimedia content to effectively communicate our brand message. Additionally, I create presentation templates and proposals to support sales efforts. I also assist in organizing internal and external events, contributing to the company’s overall marketing and promotion strategy.",
+    "descriptionPt": "Como Designer Gráfico, supervisiono a presença nas redes sociais e o website da empresa, garantindo conteúdo visual envolvente e coeso. Desenvolvo materiais publicitários e produzo conteúdo multimídia para comunicar efetivamente nossa mensagem de marca. Além disso, crio modelos de apresentação e propostas para apoiar os esforços de vendas. Também auxilio na organização de eventos internos e externos, contribuindo para a estratégia global de marketing e promoção da empresa.",
+    "initDate": "2017/11/01",
+    "endDate": "2018/05/01"
+  },
+  {
+    "id": "8",
+    "title": "Computer Technician",
+    "titlePt": "Técnico em Informática",
+    "subTitle": "ICAVI",
+    "subTitlePt": "ICAVI",
+    "logo": "/icons/icavi.jpeg",
+    "description": "As an IT Technician, I managed comprehensive computer hardware maintenance, including software installation and email infrastructure management. Additionally, I developed systems for IT management, observability, and alerts, improving operational efficiency. I oversaw telecommunications and internet service procurement, implemented robust backup strategies, and conducted electronic surveillance monitoring for security. Budgeting for IT resources, access control, and meticulous network maintenance were also part of my responsibilities.",
+    "descriptionPt": "Como Técnico em TI, gerenciei manutenção abrangente de hardware de computadores, incluindo instalação de software e gestão da infraestrutura de e-mail. Além disso, desenvolvi sistemas para gerenciamento de TI, observabilidade e alertas, aprimorando a eficiência operacional. Supervisionei telecomunicações e aquisição de serviços de internet, implementei estratégias robustas de backup e conduzi monitoramento eletrônico de vigilância para segurança. O orçamento para recursos de TI, controle de acesso e manutenção meticulosa de redes também foram parte das minhas responsabilidades.",
+    "initDate": "2017/03/01",
+    "endDate": "2017/10/01"
+  },
+  {
+    "id": "9",
+    "title": "Full Stack Software Engineer",
+    "titlePt": "Engenheiro de Software Full Stack",
+    "subTitle": "Nxfácil",
+    "subTitlePt": "Nxfácil",
+    "logo": "/icons/nxfacil.jpeg",
+    "description": "At Nxfácil, I developed and maintained essential business routines, including financial management, purchasing and sales, transaction statements, inventory balance, cash flow, bank accounts, and commission tracking. I also managed the integration and maintenance of electronic invoices (NF-e, NFS-e, and NFC-e). In addition to these tasks, I worked extensively with PostgreSQL databases and utilized Amazon AWS for cloud services. I managed file-sharing servers using SAMBA and configured and maintained Apache and Nginx servers, ensuring reliable and efficient operations across the company’s IT infrastructure.",
+    "descriptionPt": "Na Nxfácil, desenvolvi e mantive rotinas de negócios essenciais, incluindo gerenciamento financeiro, compras e vendas, extratos de transações, balanço de estoque, fluxo de caixa, contas bancárias e rastreamento de comissões. Também gerenciei a integração e manutenção de faturas eletrônicas (NF-e, NFS-e e NFC-e). Além dessas tarefas, trabalhei extensivamente com bancos de dados PostgreSQL e utilizei a Amazon AWS para serviços em nuvem. Gerenciei servidores de compartilhamento de arquivos usando SAMBA e configurei e mantive servidores Apache e Nginx, garantindo operações confiáveis e eficientes em toda a infraestrutura de TI da empresa.",
+    "initDate": "2015/02/01",
+    "endDate": "2016/07/01"
+  }
+]

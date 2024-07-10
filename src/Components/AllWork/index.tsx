@@ -1,24 +1,15 @@
 import WorkCard from '../WorkCard'
-import prisma from '@/lib/prisma'
-import { Projects } from '@prisma/client'
 import { getLocale } from 'next-intl/server'
-import { cache } from 'react'
+import works from '@/json/works.json'
 
 export const revalidate = 86400 // revalidate the data at most every 1 day
 
-const getProjects = cache(async () => {
-  const projects: Projects[] = await prisma.projects.findMany()
-
-  return projects
-})
-
 const AllWork: React.FC = async () => {
-  const projects = await getProjects()
   const locale = await getLocale()
 
   return (
     <>
-      {projects.map(
+      {works.map(
         ({
           id,
           title,

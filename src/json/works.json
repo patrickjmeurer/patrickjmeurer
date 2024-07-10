@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "title": "Unraid Translations",
+    "titlePt": "Traduções do Unraid",
+    "description": "I worked closely with the vibrant Unraid community to translate the platform into Portuguese. Throughout this process, I enhanced my knowledge of Unraid’s functionalities and implemented significant improvements. My Pull Requests, reflecting this collaboration, ensure a more comprehensive and accessible experience for all Portuguese-speaking Unraid users. Translation of Unraid into Portuguese, functionality enhancements, significant improvements, and contributions to the Unraid community are some of the areas I have worked on.",
+    "descriptionPt": "Colaborei intensamente com a vibrante comunidade do Unraid para traduzir a plataforma para o português. Durante esse processo, aprimorei meu conhecimento sobre as funcionalidades do Unraid e implementei melhorias significativas. Meus Pull Requests, que refletem essa colaboração, garantem uma experiência mais completa e acessível para todos os usuários que utilizam o Unraid em português. Tradução de Unraid para o português, aprimoramento de funcionalidades, melhorias significativas, e contribuição para a comunidade Unraid são algumas das áreas em que atuei.",
+    "icon": "/icons/unraid-logo.png",
+    "image": "/images/unraid-translations.png",
+    "buttonText": "Access now",
+    "buttonTextPt": "Acesse agora",
+    "buttonLink": "https://github.com/patrickjmeurer/lang-pt_BR",
+    "featured": "true"
+  },
+  {
+    "id": "2",
+    "title": "ViteRC",
+    "titlePt": "ViteRC",
+    "description": "This modern template uses Vite 5, React 18, and TypeScript, providing a fast and efficient development environment. It includes ESLint with Airbnb rules for clean code, Prettier for consistent formatting, Vitest for quick testing, and Git hooks with Husky for automated pre-commit checks. Ideal for developers seeking productivity.",
+    "descriptionPt": "Este template moderno usa Vite 5, React 18 e TypeScript, proporcionando um ambiente de desenvolvimento rápido e eficiente. Inclui ESLint com as regras do Airbnb para um código limpo, Prettier para formatação consistente, Vitest para testes rápidos e Git hooks com Husky para verificações automatizadas de pré-commit. Ideal para desenvolvedores que buscam produtividade",
+    "icon": "/icons/vite-logo.svg",
+    "image": "/images/vite-template.png",
+    "buttonText": "Access now",
+    "buttonTextPt": "Acesse agora",
+    "buttonLink": "https://github.com/patrickjmeurer/viterc",
+    "featured": "true"
+  }
+]

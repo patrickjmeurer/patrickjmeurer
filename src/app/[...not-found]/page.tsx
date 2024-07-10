@@ -13,6 +13,8 @@ export default function NotFoundPage() {
         width={200}
         height={200}
         alt="¯\_(ツ)_/¯"
+        priority
+        quality={100}
       />
       <h1 className="dark:text-white">Ooops...</h1>
       <h3 className="text-[rgba(var(--medium-grey-rgba))]">{t('subtitle')}</h3>

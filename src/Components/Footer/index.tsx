@@ -25,7 +25,8 @@ const Footer: React.FC = () => {
           <h4 className="mb-5 font-bold">Links</h4>
           <div className="flex flex-col gap-2">
             <Link href="/about">{tNav('about')}</Link>
-            <Link href="/work">{tNav('work')}</Link>
+            <Link href="/projects">{tNav('projects')}</Link>
+            <Link href="/experiences">{tNav('experiences')}</Link>
             <Link href="/tech-stack">{tNav('techStack')}</Link>
             <Link href="/contact">{tNav('contact')}</Link>
           </div>

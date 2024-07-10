@@ -21,7 +21,8 @@ const Navbar: React.FC = () => {
           </a>
 
           <Link href="/about">{t('about')}</Link>
-          <Link href="/work">{t('work')}</Link>
+          <Link href="/projects">{t('projects')}</Link>
+          <Link href="/experiences">{t('experiences')}</Link>
           <Link href="/tech-stack">{t('techStack')}</Link>
           <Link href="/contact">{t('contact')}</Link>
         </div>

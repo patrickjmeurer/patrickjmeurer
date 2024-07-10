@@ -35,10 +35,17 @@ const Card: React.FC<CardProps> = ({
             width={200}
             height={200}
             className="w-full"
+            priority={false}
           />
         </div>
       ) : (
-        <Image src={imageUrl} alt={title} width={250} height={250} />
+        <Image
+          src={imageUrl}
+          alt={title}
+          width={250}
+          height={250}
+          priority={false}
+        />
       )}
     </Link>
   )

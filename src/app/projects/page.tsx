@@ -4,8 +4,8 @@ import Footer from '@/Components/Footer'
 import Navbar from '@/Components/Navbar'
 import { useTranslations } from 'next-intl'
 
-const WorkPage: React.FC = () => {
-  const t = useTranslations('WorkPage')
+const ProjectsPage: React.FC = () => {
+  const t = useTranslations('ProjectsPage')
 
   return (
     <div className="w-full">
@@ -29,4 +29,4 @@ const WorkPage: React.FC = () => {
   )
 }
 
-export default WorkPage
+export default ProjectsPage

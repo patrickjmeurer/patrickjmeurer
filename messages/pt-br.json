@@ -6,7 +6,8 @@
   },
   "Navbar": {
     "about": "Sobre",
-    "work": "Trabalhos",
+    "projects": "Projetos",
+    "experiences": "Experiências de Trabalho",
     "contact": "Contato",
     "techStack": "Tech Stack"
   },
@@ -56,6 +57,9 @@
     "title": "SEU PROJETO VAI AQUI",
     "subTitle": "Vamos transformar sua ideia em realidade visual."
   },
+  "ExperienceCard": {
+    "showMore": "Mostrar mais"
+  },
 
   "AboutPage": {
     "title": "Um pouco mais sobre mim",
@@ -72,7 +76,7 @@
 
     "bottomText": "Fique à vontade para entrar em contato via <mail></mail>. Quer ver onde trabalhei? Confira meu <resume></resume> ou conecte-se comigo no <linkedin></linkedin>."
   },
-  "WorkPage": {
+  "ProjectsPage": {
     "title": "Projetos",
     "subTitle": "Projetos e ideias que já trabalhei."
   },

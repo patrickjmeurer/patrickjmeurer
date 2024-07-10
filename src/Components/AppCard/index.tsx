@@ -10,7 +10,13 @@ const AppCard: React.FC<AppCardProps> = ({ title, tag, iconUrl }) => {
   return (
     <div className="flex flex-row items-center gap-2 rounded-xl border-[1px] border-[rgb(var(--card-border-color-rgb))] bg-[rgb(var(--card-bg-color-rgb))] p-3 dark:bg-[rgb(var(--onyx-rgb))] md:flex-col md:items-center md:gap-0">
       <div className="md:py-5 lg:pt-16">
-        <Image src={iconUrl} alt={title} width={70} height={70} />
+        <Image
+          src={iconUrl}
+          alt={title}
+          width={70}
+          height={70}
+          priority={false}
+        />
       </div>
       <div className="flex w-full justify-between lg:px-3 lg:pb-3 lg:pt-10">
         <p className="font-semibold">{title}</p>
