@@ -1,12 +1,15 @@
 import Footer from '@/Components/Footer'
 import Navbar from '@/Components/Navbar'
 import { useTranslations } from 'next-intl'
+import { getLocale } from 'next-intl/server'
 import Link from 'next/link'
+import { use } from 'react'
 
 const AboutPage: React.FC = () => {
   const tGlobal = useTranslations('Global')
   const t = useTranslations('AboutPage')
   const { LINKEDIN_URL } = process.env
+  const locale = use(getLocale())
 
   return (
     <div className="w-full">
@@ -71,7 +74,9 @@ const AboutPage: React.FC = () => {
                 <Link
                   className="text-[rgb(var(--onyx-rgb))] underline dark:text-white"
                   target="_new"
-                  href="/"
+                  href={
+                    locale === 'en' ? '/cv/English.pdf' : '/cv/Portuguese.pdf'
+                  }
                 >
                   {tGlobal('resume')}
                 </Link>

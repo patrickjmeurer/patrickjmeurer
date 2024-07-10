@@ -1,14 +1,16 @@
-'use client'
 import { Button as DefaultButton } from '@headlessui/react'
 import Link from 'next/link'
 
 type ButtonProps = {
-  variant?: 'primary' | 'secondary' | 'text' | 'link'
   children: React.ReactNode
-  href: string
+  type?: 'button' | 'submit' | 'link'
+  variant?: 'primary' | 'secondary' | 'text' | 'link'
+  href?: string
   iconStart?: React.ReactNode
   iconEnd?: React.ReactNode
   target?: '_new' | '_blank' | '_self' | '_parent' | '_top' | 'framename'
+  onClick?: () => void
+  disabled?: boolean
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -18,6 +20,9 @@ const Button: React.FC<ButtonProps> = ({
   iconEnd,
   href,
   target = '_self',
+  type = 'button',
+  onClick,
+  disabled = false,
 }) => {
   const classes = [
     'inline-flex',
@@ -44,12 +49,28 @@ const Button: React.FC<ButtonProps> = ({
     )
   }
 
+  if (type === 'link') {
+    return (
+      <DefaultButton
+        as={Link}
+        href={href || ''}
+        target={target}
+        className={classes.join(' ')}
+        disabled={disabled}
+      >
+        {iconStart || null}
+        {children}
+        {iconEnd || null}
+      </DefaultButton>
+    )
+  }
+
   return (
     <DefaultButton
-      as={Link}
-      href={href}
-      target={target}
       className={classes.join(' ')}
+      type={type}
+      onClick={onClick}
+      disabled={disabled}
     >
       {iconStart || null}
       {children}

@@ -52,6 +52,10 @@
     "Copy": "© 2024 <name></name>. Todos os direitos reservados.",
     "Elsewhere": "Outros lugares"
   },
+  "EmptyWorkCard": {
+    "title": "SEU PROJETO VAI AQUI",
+    "subTitle": "Vamos transformar sua ideia em realidade visual."
+  },
 
   "AboutPage": {
     "title": "Um pouco mais sobre mim",
@@ -67,5 +71,30 @@
     "whatIDidText": "Ao longo da minha carreira, contribuí para diversas empresas de tecnologia renomadas, desenvolvendo desde sistemas web robustos até aplicativos móveis inovadores. Entre os projetos notáveis em que trabalhei estão a criação de uma plataforma de e-commerce escalável para uma grande varejista, o desenvolvimento de uma aplicação de gerenciamento de dados para uma empresa do setor financeiro e a implementação de uma solução de automação de processos para uma empresa de logística. <break></break> Sou apaixonado por ficção científica, espaço e aviação. Nos meus momentos de lazer, gosto de jogar Airsoft e assistir filmes e séries. Estou sempre em busca de novas ideias e tecnologias para facilitar a vida das pessoas. Meu objetivo é criar meu próprio negócio revolucionário no futuro, trazendo inovação e eficiência ao mercado.",
 
     "bottomText": "Fique à vontade para entrar em contato via <mail></mail>. Quer ver onde trabalhei? Confira meu <resume></resume> ou conecte-se comigo no <linkedin></linkedin>."
+  },
+  "WorkPage": {
+    "title": "Projetos",
+    "subTitle": "Projetos e ideias que já trabalhei."
+  },
+  "ContactPage": {
+    "title": "Entre em contato",
+    "subTitle": "Vamos construir algo incrível.",
+    
+    "mailTitle": "Nova Mensagem",
+    "email": "E-mail",
+    "emailPlaceholder": "Digite seu endereço de e-mail",
+    "name": "Nome",
+    "namePlaceholder": "Digite seu nome",
+    "subject": "Assunto",
+    "subjectPlaceholder": "Digite o assunto",
+    "textPlaceholder": "Escreva sua mensagem aqui",
+    "sendButton": "Enviar",
+    
+    "successSend": "Enviado com sucesso!",
+    "errorSend": "Erro ao enviar mensagem. Tente novamente mais tarde."
+  },
+  "TechStackPage": {
+    "title": "",
+    "subTitle": ""
   }
 }

@@ -5,6 +5,7 @@
 :root {
   --background-color-rgb: 251, 251, 251;
   --color-rgb: 24, 24, 24;
+  --app-card-border-rgb: 39, 37, 37;
   
   --black-rgb: 13, 13, 13;
   --white-rgb: 255, 255, 255;
@@ -55,7 +56,7 @@
   --navbar-text-color-rgb: var(--light-grey-rgb);
 
   --card-bg-color-rgb: 21, 21, 21;
-
+  --card-border-color-rgb: 56, 55, 55;
   --card-border: none;
   --card-color: rgba(var(--light-grey-rgb));
 
@@ -79,7 +80,7 @@
 body {
   color: rgb(var(--color-rgb));
   background-color: rgb(var(--background-color-rgb));
-  background-image: url('/top-bg.svg'), url('/bottom-bg.svg');
+  background-image: url('/bg/top-bg.svg'), url('/bg/bottom-bg.svg');
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
 }

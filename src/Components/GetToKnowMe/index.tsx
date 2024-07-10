@@ -11,17 +11,20 @@ const GetToKnowMe: React.FC = () => {
           title={t('aboutMe')}
           subTitle={t('aboutMeSub')}
           imageUrl="/memoji-hello.png"
+          href="/about"
         />
         <Card
           title={t('techStack')}
           subTitle={t('techStackSub')}
           imageUrl="/techs.png"
+          href="/tech-stack"
           imageFull
         />
         <Card
           title={t('experiences')}
           subTitle={t('experiencesSub')}
           imageUrl="/code.png"
+          href="/about"
           imageFull
         />
       </div>

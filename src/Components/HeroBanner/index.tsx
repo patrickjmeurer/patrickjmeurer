@@ -1,9 +1,14 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import Button from '../Button'
+import { getLocale } from 'next-intl/server'
+import { use } from 'react'
 
 const HeroBanner: React.FC = () => {
   const t = useTranslations('HeroBanner')
+  const locale = use(getLocale())
+
+  console.log({ locale })
 
   return (
     <div className="mt-[100px] flex items-center">
@@ -19,10 +24,15 @@ const HeroBanner: React.FC = () => {
           {t('description')}
         </p>
         <div className="mt-10 flex flex-col gap-5 md:flex-row">
-          <Button href="" variant="primary">
+          <Button
+            type="link"
+            href={locale === 'en' ? '/cv/English.pdf' : '/cv/Portuguese.pdf'}
+            target="_new"
+            variant="primary"
+          >
             {t('see-resume')}
           </Button>
-          <Button href="" variant="secondary">
+          <Button type="link" href="/contact" variant="secondary">
             {t('get-in-touch')}
           </Button>
         </div>

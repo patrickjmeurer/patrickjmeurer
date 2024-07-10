@@ -12,6 +12,7 @@ const LetsWorkCta: React.FC = () => {
       </div>
       <div className="mt-10 flex flex-1 justify-center md:mt-0 md:justify-end">
         <Button
+          type="link"
           variant="primary"
           href="/contact"
           iconStart={<PaperPlaneRight size={20} />}

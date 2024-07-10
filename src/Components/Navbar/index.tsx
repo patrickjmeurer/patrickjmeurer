@@ -22,8 +22,8 @@ const Navbar: React.FC = () => {
 
           <Link href="/about">{t('about')}</Link>
           <Link href="/work">{t('work')}</Link>
-          <Link href="/contact">{t('contact')}</Link>
           <Link href="/tech-stack">{t('techStack')}</Link>
+          <Link href="/contact">{t('contact')}</Link>
         </div>
         <div className="flex-column flex items-center gap-3">
           <Link href={GITHUB_URL} target="_NEW">
@@ -39,7 +39,6 @@ const Navbar: React.FC = () => {
           <div className="h-[25px] w-px bg-black/10 dark:bg-white/10" />
 
           <LangSwitch />
-
           <ThemeSwitch />
         </div>
       </div>

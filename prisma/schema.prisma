@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+model Projects {
+  id            String   @id @default(uuid())
+  title         String
+  titlePt       String   @map(name: "title_pt")
+  description   String
+  descriptionPt String   @map(name: "description_pt")
+  icon          String
+  image         String
+  buttonText    String   @map(name: "button_text")
+  buttonTextPt  String   @map(name: "button_text_pt")
+  buttonLink    String   @map(name: "button_link")
+  featured      Boolean  @default(false)
+  createdAt     DateTime @default(now()) @map(name: "created_at")
+  updatedAt     DateTime @updatedAt @map(name: "updated_at")
+}
