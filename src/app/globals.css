@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* TODO: transform all vars and RGB items to a class in tailwind.config */
 :root {
   --background-color-rgb: 251, 251, 251;
   --color-rgb: 24, 24, 24;
@@ -25,6 +26,11 @@
   --navbar-bg-color-rgba: 255, 255, 255, 25%;
   --navbar-text-color-rgb: var(--onyx-rgb);
   --navbar-selected-color-rgb: var(--black-rgb);
+
+  /* Mobile Navbar */
+  --mobile-navbar-bg-color-rgba: 24, 24, 29, 40%;
+  --mobile-navbar-text-color-rgb: var(--onyx-rgb);
+  --mobile-navbar-border-color-rgba: 39, 38, 44, 30%;
 
 
   /* Selected Work */

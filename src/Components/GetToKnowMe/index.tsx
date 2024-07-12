@@ -14,17 +14,24 @@ const GetToKnowMe: React.FC = () => {
           href="/about"
         />
         <Card
+          title={t('experiences')}
+          subTitle={t('experiencesSub')}
+          imageUrl="/code.png"
+          href="/experiences"
+          imageFull
+        />
+        <Card
+          title={t('projects')}
+          subTitle={t('projectsSub')}
+          imageUrl="/code.png"
+          href="/projects"
+          imageFull
+        />
+        <Card
           title={t('techStack')}
           subTitle={t('techStackSub')}
           imageUrl="/techs.png"
           href="/tech-stack"
-          imageFull
-        />
-        <Card
-          title={t('experiences')}
-          subTitle={t('experiencesSub')}
-          imageUrl="/code.png"
-          href="/about"
           imageFull
         />
       </div>

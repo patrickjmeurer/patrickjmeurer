@@ -2,6 +2,7 @@ import Footer from '@/Components/Footer'
 import Navbar from '@/Components/Navbar'
 import { useTranslations } from 'next-intl'
 import { getLocale } from 'next-intl/server'
+import Image from 'next/image'
 import Link from 'next/link'
 import { use } from 'react'
 
@@ -21,39 +22,49 @@ const AboutPage: React.FC = () => {
         </h2>
       </div>
 
-      <section className="mt-[100px]">
-        <h3 className="text-[rgb(var(--onyx-rgb))]] text-sm font-semibold uppercase dark:text-[rgba(var(--medium-grey-rgba))]">
-          {t('whoIAm')}
-        </h3>
-        <p className="text-[rgb(var(--dark-grey-rgb))]">
-          {t.rich('whoIAmText', {
-            name: () => {
-              return (
-                <span className="text-black dark:text-white">
-                  {tGlobal('fullName')}
-                </span>
-              )
-            },
-          })}
-        </p>
-        <h3 className="dark:text-[rgba(var(--medium-grey-rgba)) mt-[30px] text-sm font-semibold uppercase dark:text-[rgba(var(--medium-grey-rgba))]">
-          {t('whatIDo')}
-        </h3>
-        <p className="text-[rgb(var(--dark-grey-rgb))]">{t('whatIDoText')}</p>
-        <h3 className="dark:text-[rgba(var(--medium-grey-rgba)) mt-[30px] text-sm font-semibold uppercase dark:text-[rgba(var(--medium-grey-rgba))]">
-          {t('whatIDid')}
-        </h3>
-        <p className="text-[rgb(var(--dark-grey-rgb))]">
-          {t.rich('whatIDidText', {
-            break: () => {
-              return (
-                <>
-                  <br /> <br />
-                </>
-              )
-            },
-          })}
-        </p>
+      <section className="mt-[100px] flex flex-col-reverse items-center justify-center gap-5 md:grid md:grid-cols-4">
+        <div className="col-span-3">
+          <h3 className="text-[rgb(var(--onyx-rgb))]] text-sm font-semibold uppercase dark:text-[rgba(var(--medium-grey-rgba))]">
+            {t('whoIAm')}
+          </h3>
+          <p className="text-[rgb(var(--dark-grey-rgb))]">
+            {t.rich('whoIAmText', {
+              name: () => {
+                return (
+                  <span className="text-black dark:text-white">
+                    {tGlobal('fullName')}
+                  </span>
+                )
+              },
+            })}
+          </p>
+          <h3 className="dark:text-[rgba(var(--medium-grey-rgba)) mt-[30px] text-sm font-semibold uppercase dark:text-[rgba(var(--medium-grey-rgba))]">
+            {t('whatIDo')}
+          </h3>
+          <p className="text-[rgb(var(--dark-grey-rgb))]">{t('whatIDoText')}</p>
+          <h3 className="dark:text-[rgba(var(--medium-grey-rgba)) mt-[30px] text-sm font-semibold uppercase dark:text-[rgba(var(--medium-grey-rgba))]">
+            {t('whatIDid')}
+          </h3>
+          <p className="text-[rgb(var(--dark-grey-rgb))]">
+            {t.rich('whatIDidText', {
+              break: () => {
+                return (
+                  <>
+                    <br /> <br />
+                  </>
+                )
+              },
+            })}
+          </p>
+        </div>
+        <div>
+          <Image
+            src="/me.jpeg"
+            width={500}
+            height={100}
+            alt="Patrick Jean Meurer"
+          />
+        </div>
       </section>
 
       <section className="mt-[100px]">
@@ -96,6 +107,7 @@ const AboutPage: React.FC = () => {
           })}
         </p>
       </section>
+
       <Footer />
     </div>
   )

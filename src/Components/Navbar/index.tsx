@@ -1,12 +1,19 @@
 import {
+  Briefcase,
+  Envelope,
+  Gear,
   GithubLogo,
   GitlabLogo,
+  HouseLine,
+  Laptop,
   LinkedinLogo,
+  User,
 } from '@phosphor-icons/react/dist/ssr'
 import { useTranslations } from 'next-intl'
 import ThemeSwitch from '../ThemeSwitch'
 import LangSwitch from '../LangSwitch'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar: React.FC = () => {
   const t = useTranslations('Navbar')
@@ -14,10 +21,16 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="w-full">
-      <div className="navbar hidden flex-1 items-center justify-between rounded-lg bg-[rgba(var(--navbar-bg-color-rgba))] bg-opacity-30 p-3 text-[rgb(var(--navbar-text-color-rgb))] md:flex">
-        <div className="flex-column flex flex-1 gap-10">
+      <nav className="navbar hidden flex-1 items-center justify-between rounded-lg bg-[rgb(var(--navbar-bg-color-rgb))] bg-opacity-30 px-5 py-3 text-[rgb(var(--navbar-text-color-rgb))] md:flex">
+        <div className="flex-column flex flex-1 items-center gap-10">
           <a href="/">
-            <p>logo</p>
+            <Image
+              src="/logo-meurer.svg"
+              alt="Meurer"
+              width={40}
+              height={20}
+              className="dark:invert"
+            />
           </a>
 
           <Link href="/about">{t('about')}</Link>
@@ -42,10 +55,39 @@ const Navbar: React.FC = () => {
           <LangSwitch />
           <ThemeSwitch />
         </div>
-      </div>
-      <div className="align-center flex justify-center md:hidden">
-        <h2>logo</h2>
-      </div>
+      </nav>
+
+      <nav className="align-center flex flex-col items-center justify-center md:hidden">
+        <a href="/">
+          <Image
+            src="/logo-meurer.svg"
+            alt="Meurer"
+            width={100}
+            height={100}
+            className="dark:invert"
+          />
+        </a>
+        <div className="fixed bottom-5 flex w-11/12 flex-1 items-center justify-between gap-3 rounded-lg border border-[rgba(var(--mobile-navbar-border-color-rgba))] bg-[rgba(var(--mobile-navbar-bg-color-rgba))] p-3 text-[rgb(var(--faint-white-rgb))]">
+          <Link href="/">
+            <HouseLine size={30} />
+          </Link>
+          <Link href="/about">
+            <User size={30} />
+          </Link>
+          <Link href="/projects">
+            <Laptop size={30} />
+          </Link>
+          <Link href="/experiences">
+            <Briefcase size={30} />
+          </Link>
+          <Link href="/tech-stack">
+            <Gear size={30} />
+          </Link>
+          <Link href="/contact">
+            <Envelope size={30} />
+          </Link>
+        </div>
+      </nav>
     </nav>
   )
 }

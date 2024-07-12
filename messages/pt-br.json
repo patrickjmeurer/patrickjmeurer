@@ -32,6 +32,9 @@
     "techStack": "Stack Tech",
     "techStackSub": "As ferramentas de desenvolvimento, aplicativos, dispositivos e jogos que tenho jogado.",
 
+    "projects": "Projetos",
+    "projectsSub": "Todos os meu projetos públicos e suas informações.",
+
     "experiences": "Experiências",
     "experiencesSub": "Todas as minhas experiências de trabalho e demais informações."
   },
@@ -59,6 +62,11 @@
   },
   "ExperienceCard": {
     "showMore": "Mostrar mais"
+  },
+  "ColorSwitch": {
+    "dark": "Modo escuro",
+    "light": "Modo claro",
+    "system": "Usar preferencias do sistema"
   },
 
   "AboutPage": {

@@ -33,7 +33,10 @@
     "techStack": "Tech Stack",
     "techStackSub": "The dev tools, apps, devices, and games I use and play.",
 
-    "experiences": "Experiences",
+    "projects": "Projects",
+    "projectsSub": "All public projects and informations.",
+
+    "experiences": "Work Experiences",
     "experiencesSub": "All my working experiences and informations."
   },
   "LetsWork": {
@@ -60,6 +63,11 @@
   },
   "ExperienceCard": {
     "showMore": "Show more"
+  },
+  "ColorSwitch": {
+    "dark": "Dark Mode",
+    "light": "Light Mode",
+    "system": "Use system preferences"
   },
   
   "AboutPage": {
