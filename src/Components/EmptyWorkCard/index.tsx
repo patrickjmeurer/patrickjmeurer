@@ -17,6 +17,7 @@ const EmptyWorkCard: React.FC = () => {
       </p>
 
       <Button
+        type="link"
         variant="primary"
         href="/contact"
         iconStart={<PaperPlaneRight size={20} />}
