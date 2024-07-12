@@ -86,7 +86,7 @@
   },
   "ProjectsPage": {
     "title": "Projetos",
-    "subTitle": "Projetos e ideias que já trabalhei."
+    "subTitle": "Projetos públicos e ideias que já trabalhei."
   },
   "ContactPage": {
     "title": "Entre em contato",
@@ -108,5 +108,9 @@
   "TechStackPage": {
     "title": "",
     "subTitle": ""
+  },
+  "ExperiencesPage": {
+    "title": "Experiências profissionais",
+    "subTitle": "Todas as minhas experiências profissionais, bem detalhadas."
   }
 }

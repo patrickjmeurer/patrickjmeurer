@@ -110,6 +110,12 @@ p {
   font-size: 0.9rem;
 }
 
+@media (max-width: 768px){
+  .grecaptcha-badge {
+  bottom: 80px !important;
+  }
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 3.125rem;
