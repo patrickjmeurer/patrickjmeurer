@@ -8,6 +8,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import './globals.css'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,6 +39,19 @@ export default async function RootLayout({
           </main>
         </NextIntlClientProvider>
       </body>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-F0GLJ8QBZG"
+      />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
+        `}
+      </Script>
     </html>
   )
 }
