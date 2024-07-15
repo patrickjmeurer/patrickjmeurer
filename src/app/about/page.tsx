@@ -80,6 +80,17 @@ const AboutPage: React.FC = () => {
                 </Link>
               )
             },
+            experiences: () => {
+              return (
+                <Link
+                  className="text-[rgb(var(--onyx-rgb))] underline dark:text-white"
+                  target="_new"
+                  href="/experiences"
+                >
+                  {tGlobal('experiences')}
+                </Link>
+              )
+            },
             resume: () => {
               return (
                 <Link

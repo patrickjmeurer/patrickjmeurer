@@ -86,6 +86,16 @@ const TechStackPage: React.FC = () => {
       tag: 'CSS',
       iconUrl: '/icons/styled-components.svg',
     },
+    {
+      title: 'Docker',
+      tag: 'Software Platform',
+      iconUrl: '/icons/docker.svg',
+    },
+    {
+      title: 'Postman',
+      tag: 'Tools',
+      iconUrl: '/icons/postman.svg',
+    },
   ]
 
   const apps = [

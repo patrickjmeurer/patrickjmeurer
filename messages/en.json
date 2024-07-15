@@ -2,7 +2,8 @@
   "Global": {
     "fullName": "Patrick Jean Meurer",
     "name": "Patrick",
-    "resume": "resume"
+    "resume": "resume",
+    "experiences": "Work Experiences"
   },
   "Navbar": {
     "about": "About",
@@ -83,7 +84,7 @@
     "whatIDid": "What i did",
     "whatIDidText": "Throughout my career, I have contributed to various renowned technology companies, developing robust web systems and innovative mobile applications. Among the notable projects I have worked on are the creation of a scalable e-commerce platform for a major retailer, the development of a data management application for a financial sector company, and the implementation of a process automation solution for a logistics company. <break></break> I am passionate about science fiction, space, and aviation. In my leisure time, I enjoy playing Airsoft and watching movies and series. I am always looking for new ideas and technologies to make people’s lives easier. My goal is to create my own revolutionary business in the future, bringing innovation and efficiency to the market.",
 
-    "bottomText": "Feel free to reach out via <mail></mail>. Want to see where I’ve worked? Check out my <resume></resume>, or connect with me on <linkedin></linkedin>."
+    "bottomText": "Feel free to reach out via <mail></mail>. Want to see where I’ve worked? Check out the <experiences></experiences> page, my <resume></resume> or connect with me on <linkedin></linkedin>."
   },
   "ProjectsPage": {
     "title": "Projects",
