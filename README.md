@@ -3,9 +3,9 @@
 <div align="center">
 Sênior Full Stack Software Engineer
 
-[![Linkedin Badge](<https://img.shields.io/badge/-Patrick_Jean-1A2734?style=flat-square&logo=Linkedin&logoColor=white&link=[[https://www.linkedin.com/in/matheus-riann/](https://www.linkedin.com/in/patrickjeanmeurer/)](https://www.linkedin.com/in/patrickjeanmeurer/)>)](<[https://www.linkedin.com/in/matheus-riann/](https://www.linkedin.com/in/patrickjeanmeurer/)>)
-[![Gmail Badge](https://img.shields.io/badge/-patrickjmeurer@gmail.com-1A2734?style=flat-square&logo=Gmail&logoColor=white&link=mailto:patrickjmeurer@gmail.com)](mailto:patrickjmeurer@gmail.com)
-
+[<img src="https://img.shields.io/badge/-My Portfolio-1A2734?style=flat-square&logo=GoogleChrome&logoColor=white">](https://meurerti.com.br/)
+[<img src="https://img.shields.io/badge/-Patrick_Jean-1A2734?style=flat-square&logo=Linkedin&logoColor=white">](https://www.linkedin.com/in/patrickjeanmeurer/)
+[<img src="https://img.shields.io/badge/-patrickjmeurer@gmail.com-1A2734?style=flat-square&logo=Gmail&logoColor=white">](mailto:patrickjmeurer@gmail.com)
 </div>
 
 ---
@@ -90,6 +90,8 @@ I grow up in a family graduated in IT so i started my IT studies on middle schoo
 ---
 
 **Some profile Stats**
+
+[![patrickjmeurer's week stats](https://gh-readme-stats.meurerti.com.br/api/wakatime?username=potrecoo&api_domain=wakapi.dev&custom_title=Wakapi%20Week%20Stats&theme=dracula&hide=html,lua,unknown,markdown)](https://github.com/anuraghazra/github-readme-stats)
 
 [![patrickjmeurer's github stats](https://gh-readme-stats.meurerti.com.br/api?username=patrickjmeurer&count_private=true&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
